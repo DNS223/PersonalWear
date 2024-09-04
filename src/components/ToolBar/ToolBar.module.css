@@ -1,0 +1,19 @@
+.ToolBarContainer{
+    height: 97%;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 10px;
+    padding: 15px 15px 0px 10px;
+ 
+}
+
+.ToolContainer{
+    width: 95%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}

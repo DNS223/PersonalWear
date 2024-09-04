@@ -1,0 +1,18 @@
+.inputPosition{
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+.inputPosition::-webkit-outer-spin-button,
+.inputPosition::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Para Firefox */
+.inputPosition {
+    -moz-appearance: textfield;
+}

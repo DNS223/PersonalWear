@@ -1,0 +1,45 @@
+.Header{
+    width: 100vw;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+   
+}
+.linksContainer{
+    margin-right: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Title{
+    font-size: 40px;
+    border-bottom: 2px solid #f58c40;
+    /* font-family: 'Josefin Sans Variable', sans-serif; */
+    font-family: 'Rubik Variable', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    
+}
+.LinkLogin{
+    color:#f58c40 ;
+    text-decoration: none;
+    font-size: 18px;
+}
+.LinkGetStarted{
+    background-color: #f58c40;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 2px;
+    
+}
