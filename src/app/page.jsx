@@ -26,6 +26,7 @@ function App() {
           </div>
 
           <div className={styles.ShirtContainer}>
+            <p className={styles.txtMoveMe}>Move Me!</p>
             <AnimatePresence>
             <CanvasModel positionX={0} positionY={0} grados={0}/>
             </AnimatePresence>

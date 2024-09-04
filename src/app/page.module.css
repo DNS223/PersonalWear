@@ -57,3 +57,12 @@
         cursor: pointer;
     }
 }
+.ShirtContainer{
+    position: relative;
+}
+.txtMoveMe{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    position: absolute;
+    right: 50px;
+}

@@ -2,7 +2,7 @@ import state from "@/store"
 import {  SketchPicker } from "react-color"
 import { useSnapshot } from "valtio"
 import styles from "./ColorPicker.module.css"
-export default function (){
+export default function ColorPicker(){
     const snap = useSnapshot(state)
     return(
         <SketchPicker
