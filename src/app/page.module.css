@@ -1,6 +1,5 @@
 .body{
     width: calc(100vw - 17px);
-    height: 150vh;
     box-sizing: border-box;
     position: relative;
     background-color: white;
@@ -14,10 +13,11 @@
 }
 .fstSection{
     width: 100%;
+    height: calc(100vh - 100px);
     display: flex;
     align-items: center;
-    padding-top: 120px;
     justify-content: space-between;
+    position: relative;
 }
 .infoFstContainer{
     position: relative;
@@ -65,4 +65,22 @@
     font-size: 25px;
     position: absolute;
     right: 50px;
+    & .arrow{
+        width: 50px;
+        position: absolute;
+        right: 120px;
+        top: 8px;
+        transform: scaleX(-1) rotate(-100deg);
+    }
+}
+.nextSectionBtnContainer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.nextSectionBtn{
+    width: 50px;
 }

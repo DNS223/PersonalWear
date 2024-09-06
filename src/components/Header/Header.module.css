@@ -14,17 +14,15 @@
 }
 .linksContainer{
     margin-right: 50px;
-    width: 190px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .Title{
     font-size: 40px;
     border-bottom: 2px solid #f58c40;
     /* font-family: 'Josefin Sans Variable', sans-serif; */
-    font-family: 'Rubik Variable', sans-serif;
-    font-weight: 600;
+    font-family: 'Permanent Marker', cursive;
+
     text-decoration: none;
     color: black;
     
@@ -41,5 +39,5 @@
     color: white;
     font-size: 17px;
     border-radius: 2px;
-    
+    margin-left: 30px;
 }
