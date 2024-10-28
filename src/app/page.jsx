@@ -6,6 +6,7 @@ import Header from '@/components/Header/Header';
 import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
 import { AnimatePresence } from 'framer-motion';
 import CanvasModel from '@/components/canvas';
+import ColorPicker from '@/components/colorPicker/ColorPicker';
 
 function App() {
   return (
@@ -32,11 +33,28 @@ function App() {
             </AnimatePresence>
           </div>
 
-          {/* <div className={styles.nextSectionBtnContainer}>
+          <div className={styles.nextSectionBtnContainer}>
             <img src="./down-arrow.png" className={styles.nextSectionBtn} />
-          </div> */}
+          </div>
         </div>
-       
+        
+        <div className={styles.scndSection}>
+          <div>
+            <p className={styles.Title}>Cambia el Color</p>
+            <p>Selecciona el color entre posibilidades infinitas que represente tu estilo</p>
+          </div>
+          <div className={styles.GidgetsContainer}>
+            <div className={styles.ColorPickerContainer}>
+              <ColorPicker/>
+            </div>
+            <div className={styles.tShirtContainer}>
+              <AnimatePresence>
+              <CanvasModel positionX={0} positionY={0} grados={0}/>
+              </AnimatePresence>
+            </div>
+          </div>
+          
+        </div>
       </div>
     </>
   );
